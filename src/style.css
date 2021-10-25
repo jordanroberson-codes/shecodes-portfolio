@@ -21,6 +21,10 @@ h2:hover {
   align-items: center;
 }
 
+.intro-wrapper {
+  margin-bottom: 20px;
+}
+
 .hero h2 {
   margin-bottom: 20px;
   margin-top: 0px;
@@ -45,8 +49,9 @@ h2 {
   background-color: #7c79ff;
   border: 1px solid #7c79ff;
   margin-bottom: 10px;
-  flex-wrap: nowrap;
   margin-bottom: 35px;
+  display: block;
+  margin: 0 auto;
 }
 
 .profile-pic {
@@ -133,3 +138,24 @@ ul.skills-odd {
 /* ===========================================
                     MEDIA QUERIES
 =============================================*/
+@media screen and (min-width: 768px) {
+  .hero {
+    display: initial;
+  }
+
+  .profile-pic {
+    width: initial;
+    max-width: 55%;
+  }
+
+  .intro-wrapper {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .intro-text {
+    margin-left: 25px;
+  }
+}
