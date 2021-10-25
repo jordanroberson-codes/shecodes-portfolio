@@ -44,7 +44,7 @@
   </head>
   <body>
     <!-- nav bar -->
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <nav class="navbar sticky-top navbar-expand-lg navbar-light bg-light">
       <div class="container-fluid">
         <a class="navbar-brand" href="#">Jordan Roberson</a>
         <button
@@ -64,10 +64,10 @@
               <a class="nav-link active" aria-current="page" href="#">Home</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Features</a>
+              <a class="nav-link" href="#about-me">About</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Pricing</a>
+              <a class="nav-link" href="#projects">Projects</a>
             </li>
             <li class="nav-item">
               <a class="nav-link disabled">Disabled</a>
@@ -89,23 +89,22 @@
       <p>👋🏼 Hello, I am</p>
       <h1>Jordan Roberson</h1>
       <h2>Front-end developer based in Florida</h2>
-      <a href="#" class="btn btn-primary">Contact Me</a>
+      <a href="mailto:JordanRobersonCodes@gmail.com?subject=Hi!%20Let's%20Collaborate" class="btn btn-primary">Contact Me</a>
     </div>
     </div>
     </section>
     <!-- end of hero section -->
     <!-- about me section -->
-    <section class="about-me">
+    <section id="about-me" class="about-me">
       <h2>About Me</h2>
       <p>
         My name is Jordan and I am a front-end web developer. I build websites
         and dreams. I recently finished a degree in Front-End Web Development at
-        TeamTreehouse. I have completed SheCodes frontend web development course
-        which includes react.
+        TeamTreehouse. I have also completed SheCodes Front End Developement course and the freecodecamp.org responsive web design certificate. I am a nurse practitioner who is looking to get into the tech industry and hopefully bring some of that experience with me!
       </p>
     </section>
     <!-- projects section -->
-    <section class="projects">
+    <section id="projects" class="projects">
       <h2>Projects</h2>
 
       <!-- Card 1 -->
@@ -178,7 +177,7 @@
           <div class="col-md-4">
             <img
               src="src/images/weather-app-example.png"
-              class="img-fluid rounded-start"
+              class="img-fluid weather-pic rounded-start"
               alt="example of weather app"
             />
           </div>
