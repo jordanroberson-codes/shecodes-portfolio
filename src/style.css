@@ -25,9 +25,20 @@ h2:hover {
   margin-bottom: 20px;
 }
 
+.intro-text {
+  padding: 15px;
+}
+
+.hero h1 {
+  font-size: 3rem;
+  color: #7c79ff;
+  -webkit-text-stroke: 1px black;
+}
+
 .hero h2 {
   margin-bottom: 20px;
   margin-top: 0px;
+  font-size: 1.5rem;
 }
 .hero h2:hover {
   border-bottom: none;
@@ -36,6 +47,7 @@ h2:hover {
 
 .hero p {
   margin-top: 25px;
+  font-size: 1.3rem;
 }
 
 .hero p,
@@ -148,9 +160,13 @@ ul.skills-odd {
     display: initial;
   }
 
+  .hero a {
+    width: 60%;
+  }
+
   .profile-pic {
     width: initial;
-    max-width: 55%;
+    max-width: 60%;
   }
 
   .intro-wrapper {
