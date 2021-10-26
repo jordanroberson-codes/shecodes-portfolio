@@ -8,6 +8,10 @@ body {
 h2:hover {
   border-bottom: 5px solid #7c79ff;
 }
+
+footer {
+  text-align: center;
+}
 /* ===========================================
                     ELEMENTS
 =============================================*/
@@ -103,6 +107,10 @@ h2 {
   box-shadow: 5px 5px 2px #adacfa;
 }
 
+.card:hover {
+  box-shadow: 5px 5px 2px #7c79ff;
+}
+
 .projects h2 {
   margin-bottom: 30px;
 }
@@ -155,6 +163,18 @@ ul.skills-odd {
   background: #7c79ff;
 }
 /* end of project section */
+footer a {
+  color: #7c79ff;
+}
+
+footer .fa {
+  transition: all 150ms ease-in-out;
+}
+
+footer .fa:hover {
+  transform: scale(1.5);
+  color: #adacfa;
+}
 
 /* ===========================================
                     MEDIA QUERIES
