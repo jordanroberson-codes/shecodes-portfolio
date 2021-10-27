@@ -182,8 +182,16 @@ ul.skills-odd {
   background: #7c79ff;
 }
 /* end of project section */
+
+footer {
+  margin-top: 30px;
+}
 footer a {
   color: #7c79ff;
+}
+
+footer .fa {
+  font-size: 2rem;
 }
 
 footer .fa {
@@ -191,8 +199,12 @@ footer .fa {
 }
 
 footer .fa:hover {
-  transform: scale(1.5);
+  transform: scale(1.2);
   color: #adacfa;
+}
+
+footer img {
+  width: 100%;
 }
 
 /* ===========================================
@@ -220,7 +232,7 @@ footer .fa:hover {
   }
 
   .intro-text {
-    margin-left: 65px;
+    margin-left: auto;
   }
 
   .about-me p {
