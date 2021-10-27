@@ -132,6 +132,21 @@ h2 {
   width: 80%;
 }
 
+.links {
+  text-align: center;
+}
+
+.links a {
+  color: #7c79ff;
+  text-decoration: none;
+  transition: all 150ms ease-in-out;
+}
+
+.links a:hover {
+  color: #adacfa;
+  font-size: 2rem;
+}
+
 ul.skills {
   padding: 0;
 }
@@ -217,5 +232,9 @@ footer .fa:hover {
   .img-fluid {
     height: 100%;
     margin-top: 0;
+  }
+
+  .links {
+    text-align: left;
   }
 }
