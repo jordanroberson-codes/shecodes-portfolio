@@ -122,7 +122,7 @@ h2 {
 }
 
 .img-fluid {
-  height: 70%;
+  /* height: 70%; */
   display: block;
   margin: 0 auto;
   margin-top: 40px;
@@ -241,9 +241,8 @@ footer img {
     width: 540px;
   }
 
-  .img-fluid {
-    height: 100%;
-    margin-top: 0;
+  .card {
+    padding-left: 15px;
   }
 
   .links {
