@@ -2,12 +2,16 @@
                     BASE
 =============================================*/
 body {
-  font-family: "M PLUS Rounded 1c", sans-serif;
+  font-family: "Quicksand", sans-serif;
   background-color: #f9faff;
 }
 
 h2:hover {
   border-bottom: 5px solid #7c79ff;
+}
+
+.about-title:hover {
+  border-bottom: 5px solid #ff95e1;
 }
 
 footer {
@@ -28,6 +32,29 @@ footer {
   width: 80px;
 }
 
+.navbar li {
+  font-weight: 600;
+}
+
+.nav-link {
+  color: #4a287e !important;
+}
+
+.navbar a:hover {
+  color: #7c79ff !important;
+  font-size: 1.1rem;
+  background: linear-gradient(90deg, #ff95e1, #7c79ff, #73e9d7);
+  background-size: 400% auto;
+
+  color: #000;
+  background-clip: text;
+
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+
+  animation: gradient 15s ease infinite;
+}
+
 .navbar-expand-lg .navbar-collapse {
   justify-content: flex-end;
 }
@@ -39,10 +66,14 @@ footer {
 /* Hero section */
 .hero {
   margin-bottom: 30px;
-  font-family: "M PLUS Rounded 1c", sans-serif;
+  font-family: "Quicksand", sans-serif;
   display: flex;
   flex-direction: column;
   align-items: center;
+}
+
+.hero h1 {
+  font-family: sans-serif;
 }
 
 .intro-wrapper {
@@ -58,7 +89,7 @@ footer {
   font-weight: 800;
   color: #7c79ff;
   -webkit-text-stroke: 1px black;
-  background: linear-gradient(90deg, #fff, #adacfa, #7c79ff, #73e9d7);
+  background: linear-gradient(90deg, #fff, #ff95e1, #7c79ff, #73e9d7);
   background-size: 400% auto;
 
   color: #000;
@@ -106,7 +137,7 @@ h2 {
 }
 
 .btn-primary {
-  background: linear-gradient(90deg, #fff, #adacfa, #7c79ff, #73e9d7);
+  background: linear-gradient(90deg, #ff95e1, #7c79ff, #73e9d7);
   background-size: 200% auto;
   animation: gradient 15s ease infinite;
 }
@@ -129,7 +160,13 @@ h2 {
 
 .about-me p {
   padding: 15px;
+  font-size: 1.2rem;
 }
+
+.about-me embed {
+  display: none;
+}
+
 /* end of about me section */
 
 /* project section */
@@ -229,6 +266,10 @@ footer a {
   color: #7c79ff;
 }
 
+.about {
+  color: #ff95e1 !important;
+}
+
 footer .fa {
   font-size: 2rem;
 }
@@ -278,11 +319,15 @@ footer img {
   .about-me p {
     display: block;
     margin: 0 auto;
-    width: 540px;
+    width: 650px;
   }
 
   .card {
     padding-left: 15px;
+  }
+
+  .about-me embed {
+    display: initial;
   }
 
   .links {
