@@ -4,6 +4,7 @@
 body {
   font-family: "Quicksand", sans-serif;
   background-color: #f9faff;
+  cursor: pointer;
 }
 
 h2:hover {
@@ -12,6 +13,14 @@ h2:hover {
 
 .about-title:hover {
   border-bottom: 5px solid #ff95e1;
+}
+
+.projects h2 {
+  border-bottom: 5px solid #73e9d7;
+}
+
+.contact h2 {
+  border-bottom: none;
 }
 
 footer {
@@ -88,7 +97,7 @@ footer {
   font-weight: 800;
   color: #7c79ff;
   -webkit-text-stroke: 1px black;
-  background: linear-gradient(90deg, #fff, #ff95e1, #7c79ff, #73e9d7);
+  background: linear-gradient(90deg, #ff95e1, #7c79ff, #73e9d7);
   background-size: 400% auto;
 
   color: #000;
@@ -106,7 +115,6 @@ footer {
 }
 .hero h2:hover {
   border-bottom: none;
-  cursor: pointer;
 }
 
 .hero p {
@@ -271,6 +279,10 @@ footer a {
   color: #ff95e1 !important;
 }
 
+.project {
+  color: #73e9d7;
+}
+
 footer .fa {
   font-size: 2rem;
 }
@@ -289,6 +301,19 @@ footer img {
   animation: gradient 15s ease infinite;
 }
 
+/* CONTACT SECTION */
+.contact p {
+  text-align: center;
+}
+
+.contact a {
+  color: #7c79ff;
+  text-decoration: none;
+}
+
+.contact a:hover {
+  font-size: 1.2rem;
+}
 /* ===========================================
                     MEDIA QUERIES
 =============================================*/
@@ -338,6 +363,13 @@ footer img {
 
   .links {
     text-align: left;
+  }
+
+  .contact p {
+    text-align: initial;
+  }
+  .contact h2 {
+    text-align: initial;
   }
   @keyframes gradient {
     0% {
